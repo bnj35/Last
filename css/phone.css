@@ -1,37 +1,9 @@
-body{
-    background:url(../img/texture.jpg);
-    background-size: 200vw 200vh;
-    height: inherit;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    display:flexbox;
-    align-items: center;
-    justify-content: center;  
-    color: white;
-    overflow: hidden;
-}
-
-h1{
-    font-size: 100%;
-    width: 40%;
-    font-family: 'Karla', sans-serif;
-    text-align: center;
+body {
     display: flex;
-    margin: 0%;
-    background: -webkit-linear-gradient(180deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-animation: gradient 10s ease infinite;
-text-align: center;
-}
-
-.center{
-    display:block ;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 50%;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 button{
@@ -42,13 +14,44 @@ button{
     font-family: 'Karla', sans-serif;
     text-align: center;
     display: flex;
-    margin: 10px;
+    margin: 0%;
     background: -webkit-linear-gradient(360deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
-    border-radius: 16px;
 }
 
     a{
         text-decoration: none;
         color: white;
+    }
+
+    .center {
         text-align: center;
     }
+    
+    .center h1 {
+        margin-bottom: 20px;
+        font-size: 70%;
+        width: 40%;
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        display: flex;
+        background: -webkit-linear-gradient(180deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 10s ease infinite;
+    }
+    
+    .center button {
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 100%;
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        display: flex;
+        margin: 0%;
+        background: -webkit-linear-gradient(360deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
+    }
+    
