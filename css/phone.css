@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    font-size: 70%;
+    font-size: 100%;
     width: 40%;
     font-family: 'Karla', sans-serif;
     text-align: center;
@@ -23,6 +23,7 @@ h1{
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 animation: gradient 10s ease infinite;
+text-align: center;
 }
 
 .center{
@@ -30,7 +31,7 @@ animation: gradient 10s ease infinite;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20%;
+    padding: 50%;
 }
 
 button{
@@ -41,7 +42,7 @@ button{
     font-family: 'Karla', sans-serif;
     text-align: center;
     display: flex;
-    margin: 0%;
+    margin: 10px;
     background: -webkit-linear-gradient(360deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
     border-radius: 16px;
 }
@@ -49,4 +50,5 @@ button{
     a{
         text-decoration: none;
         color: white;
+        text-align: center;
     }
