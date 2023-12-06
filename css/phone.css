@@ -9,6 +9,7 @@ body{
     align-items: center;
     justify-content: center;  
     color: white;
+    overflow: hidden;
 }
 
 h1{
@@ -25,10 +26,11 @@ animation: gradient 10s ease infinite;
 }
 
 .center{
-    display:flex ;
+    display:block ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20%;
 }
 
 button{
@@ -41,6 +43,7 @@ button{
     display: flex;
     margin: 0%;
     background: -webkit-linear-gradient(360deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
+    border-radius: 16px;
 }
 
     a{
