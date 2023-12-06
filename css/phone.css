@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background:url(../img/texture.jpg);
 }
 
 button{
@@ -27,10 +28,13 @@ button{
         text-align: center;
     }
     
-    .center h1 {
-        margin-bottom: 20px;
-        font-size: 70%;
-        width: 40%;
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size:larger;
+        width: 50%;
         font-family: 'Karla', sans-serif;
         text-align: center;
         display: flex;
@@ -40,7 +44,7 @@ button{
     animation: gradient 10s ease infinite;
     }
     
-    .center button {
+    button {
         padding: 10px 20px;
         font-size: 16px;
         text-decoration: none;
@@ -53,5 +57,20 @@ button{
         display: flex;
         margin: 0%;
         background: -webkit-linear-gradient(360deg, #23678F, #8FCFDE,#F7BC5B, #ffd343);
+        border-radius: 15px;
     }
     
+    .bouton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .titre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 2vh;
+    }
